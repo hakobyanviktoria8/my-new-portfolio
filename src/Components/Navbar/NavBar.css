@@ -1,0 +1,18 @@
+.navigation{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    height: 80px;
+}
+.link{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+.link:hover{
+    transform: scale(1.05, 1.05);
+    text-shadow: 0 0  10px #ff99ef;
+    text-decoration: none;
+    color: white;
+}
