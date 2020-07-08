@@ -1,0 +1,14 @@
+.education{
+    color: #faebff;
+}
+.education h1{
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+.education hr{
+    color: #faebff;
+    margin-top: 0;
+}
+.education p{
+    font-size: 18px;
+}
