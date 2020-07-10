@@ -1,6 +1,8 @@
 .education{
     color: #faebff;
-    margin-top: 20px;
+    top: 90px;
+    position: relative;
+    /*margin-top: 20px;*/
     /*width: 100%;*/
     /*min-height: 85vh;*/
     /*top: 100px;*/

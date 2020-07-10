@@ -1,5 +1,7 @@
 .cv{
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    top: 90px;
+    position: relative;
 }
 .cv h1{
     color: #faebff;

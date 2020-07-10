@@ -1,9 +1,10 @@
 .navigation{
-    position: fixed;
+    position: fixed !important;
     width: 100%;
     z-index: 2;
     top: 0;
     height: 80px;
+    background-color: #b900a9;
 }
 .link{
     color: white;

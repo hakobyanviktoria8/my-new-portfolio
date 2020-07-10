@@ -7,7 +7,9 @@ h1{
     font-size: 45px;
 }
 .header{
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    top: 90px;
+    position: relative;
 }
 .imgCol{
     height: 450px;
