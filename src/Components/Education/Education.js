@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'reactstrap';
 import "./Education.css";
-import iconV from "./Screenshot_6.png";
+// import iconV from "./Screenshot_6.png";
 
 export function Education(props) {
     return(

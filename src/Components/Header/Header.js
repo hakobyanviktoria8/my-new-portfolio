@@ -50,15 +50,15 @@ export function Header(props) {
                             <Col xs="12" sm="12" md="12" lg="12" xl="12" className={"col contactCol ml-5"}>
                                 <div className="addres">
                                     <img src={address} />
-                                    <span className="ml-4">25 apt. 1b. S. Taronts Shengavit Yerevan Armenia</span>
+                                    <span className="ml-4 textHeader">25 apt. 1b. S. Taronts Shengavit Yerevan Armenia</span>
                                 </div>
                                 <div className="mt-2 phone">
                                     <img src={phone} />
-                                    <span className="ml-4">(+374 ) 94 - 333 - 518</span>
+                                    <span className="ml-4 textHeader">(+374 ) 94 - 333 - 518</span>
                                 </div>
                                 <div className="mt-2 gmail">
                                     <img src={gmail} />
-                                    <span className="ml-4">hakobyanviktorya8@gmail.com</span>
+                                    <span className="ml-4 textHeader">hakobyanviktorya8@gmail.com</span>
                                 </div>
                             </Col>
                         </Row>

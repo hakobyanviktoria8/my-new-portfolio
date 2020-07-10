@@ -1,5 +1,10 @@
 .workExperience{
     color: #faebff;
+    margin-top: 20px;
+    /*width: 100%;*/
+    /*min-height: 80vh;*/
+    /*top: 110px;*/
+    /*position: absolute;*/
 }
 .workExperience h1{
     text-align: center;

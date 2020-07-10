@@ -17,6 +17,9 @@ export default function App() {
                     <Route exact path="/">
                         <Header />
                     </Route>
+                    <Route exact path="/my-new-portfolio">
+                        <Header />
+                    </Route>
                     <Route path="/projects">
                         <Projects />
                     </Route>
