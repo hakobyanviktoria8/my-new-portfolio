@@ -12,7 +12,7 @@ export function CV(props) {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col xs="12" sm="12" md="12" lg="12" xl="12">
                         <iframe src="https://hakobyanviktoria8.github.io/ViktoryaCV/" style={{border:"none",padding:"15px", height:"1200px", backgroundColor:"white"}} width="1000" title="CV">
                         </iframe>
                     </Col>

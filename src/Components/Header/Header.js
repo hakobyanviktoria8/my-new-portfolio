@@ -42,9 +42,7 @@ export function Header(props) {
                                     <h1 className={"name"}>Viktorya Hakobyan Vardani</h1>
                                     <h3>Junior Frontend Developer</h3>
                                     <h5>/ Javascript / React /</h5>
-                                    {/*<p>Many desktop publishing packages and web page editors now use Lorem*/}
-                                        {/*Ipsum as their default model text, and a search for 'lorem ipsum' will*/}
-                                    {/*</p>*/}
+                                    <p> </p>
                                 </div>
                             </Col>
                         </Row>

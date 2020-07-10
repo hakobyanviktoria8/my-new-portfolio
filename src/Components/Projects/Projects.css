@@ -29,6 +29,10 @@
 .iconReact{
     width: 55px;
 }
+.iconjQuery{
+    width: 45px;
+    border-radius: 5px;
+}
 .iconReactStrap{
     width: 45px;
     border-radius: 20%;
@@ -47,4 +51,9 @@
 }
 .weatherMap{
     height: 600px;
+}
+.Simg{
+    width: 50%;
+    position: relative;
+    height: 180px;
 }
