@@ -1,6 +1,8 @@
 import React from "react";
 import "./CV.css";
 import { Container, Row, Col } from 'reactstrap';
+import AppCV from "./Downlod";
+import {MyApp} from "./MyApp";
 
 export function CV(props) {
     return(
@@ -9,6 +11,8 @@ export function CV(props) {
                 <Row>
                     <Col xs="12" sm="12" md="12" lg="12" xl="12">
                         <h1>MY CV</h1>
+                       {/*<AppCV/>*/}
+                       <MyApp/>
                     </Col>
                 </Row>
                 <Row>

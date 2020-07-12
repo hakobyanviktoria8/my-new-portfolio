@@ -215,7 +215,7 @@ export function Projects(props) {
                     </div>
                     <div className="aboutImg">
                         <img  className={"Simg p-1"} src={Simg9} alt=""/>
-                        <img  className={"Simg p-1"} src={Simg11} alt=""/>
+                        <img  className={"Simg p-1"} src={Simg10} alt=""/>
                         <img  className={"Simg p-1"} src={Simg11} alt=""/>
                         <img  className={"Simg p-1"} src={Simg12} alt=""/>
                     </div>
