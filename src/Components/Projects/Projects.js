@@ -27,6 +27,7 @@ import CovidMapReact from "./Image/CovidMapReact.jpg";
 import MovieReact from "./Image/MovieReact.jpg";
 import WeatherMapFetch from "./Image/WeatherMapFetch.jpg";
 import restoran from "./Image/restoran.jpg";
+import ArmTripLogo from "./Icons/ArmTrip.png";
 import Simg1 from "./AboutImg/Screenshot_1.jpg";
 import Simg2 from "./AboutImg/Screenshot_2.jpg";
 import Simg3 from "./AboutImg/Screenshot_3.jpg";
@@ -47,6 +48,19 @@ import Simg17 from "./AboutImg/Screenshot_17.jpg";
 import Simg18 from "./AboutImg/Screenshot_18.jpg";
 import Simg19 from "./AboutImg/Screenshot_19.jpg";
 import Simg20 from "./AboutImg/Screenshot_20.jpg";
+import ArmTrip from "./AboutImg/Screenshot_24.jpg";
+import Simg21 from "./AboutImg/Screenshot_21.jpg";
+import Simg22 from "./AboutImg/Screenshot_22.jpg";
+import Simg23 from "./AboutImg/Screenshot_23.jpg";
+import Simg25 from "./AboutImg/Screenshot_25.jpg";
+import Simg26 from "./AboutImg/Screenshot_26.jpg";
+import Simg27 from "./AboutImg/Screenshot_27.jpg";
+import Simg28 from "./AboutImg/Screenshot_28.jpg";
+import Simg29 from "./AboutImg/Screenshot_29.jpg";
+import Simg30 from "./AboutImg/Screenshot_30.jpg";
+import Simg31 from "./AboutImg/Screenshot_32.jpg";
+import Simg33 from "./AboutImg/Screenshot_33.jpg";
+import Simg34 from "./AboutImg/Screenshot_34.jpg";
 
 
 export function Projects(props) {
@@ -81,7 +95,55 @@ export function Projects(props) {
                 {/*</Col>*/}
             {/*</Row>*/}
             {/*<hr/>*/}
-            {/*restoran*/}
+            {/*Armenian trip*/}
+            <Row>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject p-3"}>
+                    <h1 className={"projectName"}><img style={{width:"70px"}} src={ArmTripLogo} alt=""/>Armenian trip</h1>
+                    <div className={"icons"}>
+                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
+                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
+                        <img className={"icon ml-1 iconReactStrap"} src={reactStrap} alt=""/>
+                    </div>
+                    <div className={"responsive"}>
+                        <img  className={"responsiveImg"} src={responsive} alt=""/>
+                    </div>
+                    <div className="aboutImg ArmTrip">
+                        <img title={"Home"} className={"Simg p-1"} src={Simg21} alt=""/>
+                        <img title={"Sightseeing"} className={"Simg p-1"} src={Simg22} alt=""/>
+                        <img title={"Sightseeing"} className={"Simg p-1"} src={Simg23} alt=""/>
+                        <img title={"Sightseeing"} className={"Simg p-1"} src={Simg25} alt=""/>
+                        <img title={"Sightseeing"} className={"Simg p-1"} src={Simg26} alt=""/>
+                        <img title={"Registration"} className={"Simg p-1"} src={Simg27} alt=""/>
+                        <img title={"Registration"} className={"Simg p-1"} src={Simg28} alt=""/>
+                        <img title={"Registration"} className={"Simg p-1"} src={Simg29} alt=""/>
+                        <img title={"Registration"} className={"Simg p-1"} src={Simg30} alt=""/>
+                        <img title={"Registration"} className={"Simg p-1"} src={Simg31} alt=""/>
+                        <img title={"Registration"} className={"Simg p-1"} src={Simg33} alt=""/>
+                        <img title={"Registration"} className={"Simg p-1"} src={Simg34} alt=""/>
+                    </div>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <a  href="https://hakobyanviktoria8.github.io/avartakan-project/">
+                        <img title={"See project"} className={"workImg"} src={ArmTrip} alt=""/>
+                    </a>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Reactstrap: NavBar, UncontrolledCarousel, Modal, Container</li>
+                        <li>Carusel, Swiper, ReactPlayer, ReactIDSwiper  Components  </li>
+                        <li>Registration form validation: ReactHookForm</li>
+                        <li>React Router HOOK</li>
+                        <li>Function, Class Components</li>
+                        <li>HOOK : useState, useEffect, useContext, useCallback </li>
+                        <li>Fetch, Axios: async - await, try - catch  </li>
+                        <li>API: https://am-places.herokuapp.com</li>
+                        <li>Google Map</li>
+                        <li>Send message Slack</li>
+                        <li>Send message Tawk.to</li>
+                        <li>Users Data: Firebase </li>
+                    </ul>
+                </Col>
+            </Row>
+            <hr/>{/*restoran*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject p-3"}>
                     <h1 className={"projectName"}>101 CookBookS</h1>
