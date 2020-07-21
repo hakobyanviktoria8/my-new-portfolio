@@ -61,6 +61,8 @@ import Simg30 from "./AboutImg/Screenshot_30.jpg";
 import Simg31 from "./AboutImg/Screenshot_32.jpg";
 import Simg33 from "./AboutImg/Screenshot_33.jpg";
 import Simg34 from "./AboutImg/Screenshot_34.jpg";
+import image from "./AboutImg/image.png";
+import slider from "./AboutImg/SlidePathComp.jpg";
 
 
 export function Projects(props) {
@@ -141,6 +143,10 @@ export function Projects(props) {
                         <li>Send message Tawk.to</li>
                         <li>Users Data: Firebase </li>
                     </ul>
+                    <div className="aboutImg ArmTrip">
+                        <img title={"Home"} className={"Simg p-1"} src={image} alt=""/>
+                        <img title={"Home"} className={"Simg p-1"} src={slider} alt=""/>
+                    </div>
                 </Col>
             </Row>
             <hr/>{/*restoran*/}
