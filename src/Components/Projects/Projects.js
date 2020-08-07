@@ -63,6 +63,10 @@ import Simg33 from "./AboutImg/Screenshot_33.jpg";
 import Simg34 from "./AboutImg/Screenshot_34.jpg";
 import image from "./AboutImg/image.png";
 import slider from "./AboutImg/SlidePathComp.jpg";
+import covid1 from "./AboutImg/covid1.jpg";
+import covid2 from "./AboutImg/covid2.jpg";
+import covid3 from "./AboutImg/covid3.jpg";
+import covid4 from "./AboutImg/covid4.jpg";
 
 
 export function Projects(props) {
@@ -97,6 +101,44 @@ export function Projects(props) {
                 {/*</Col>*/}
             {/*</Row>*/}
             {/*<hr/>*/}
+            {/*Covid-19-React*/}
+            <Row>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <h1 className={"projectName"}>Covid-19</h1>
+                    <div className={"icons"}>
+                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
+                        <img className={"icon ml-1 iconJavascript"} src={javascript} alt=""/>
+                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
+                        <img className={"icon ml-1 iconReactStrap"} src={reactStrap} alt=""/>
+                    </div>
+                    <div className={"responsive"}>
+                        <img  className={"responsiveImg"} src={responsive} alt=""/>
+                    </div>
+                    <div className="aboutImg ArmTrip">
+                        <img title={"Select country"} className={"Simg p-1"} src={covid2} alt=""/>
+                        <img title={"News"} className={"Simg p-1"} src={covid3} alt=""/>
+                        <img title={"Counter"} className={"Simg p-1"} src={covid4} alt=""/>
+                    </div>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <a  href="https://hakobyanviktoria8.github.io/covid-19-react/">
+                        <img className={"workImg"} src={covid1} alt="" style={{height:"400px"}}/>
+                    </a>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Reactstrap: Modal, Container, Row, Col, Table</li>
+                        <li>Function Component</li>
+                        <li>HOOK : useState, useEffect</li>
+                        <li>Fetch, Axios: async - await, try - catch  </li>
+                        <li>API: https://corona.lmao.ninja</li>
+                        <li>API: https://disease.sh</li>
+                        <li>Leaflet Map</li>
+                        <li>Chart js graph</li>
+                        <li>Numeral</li>
+                    </ul>
+                </Col>
+            </Row>
+            <hr/>
             {/*Armenian trip*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject p-3"}>
