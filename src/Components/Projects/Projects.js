@@ -250,7 +250,7 @@ export function Projects(props) {
                     </ul>
                 </Col>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <a  href="https://hakobyanviktoria8.github.io/projects/">R
+                    <a  href="https://hakobyanviktoria8.github.io/projects/">
                         <img className={"workImg"} src={require("./AboutImg/Screenshot_37.jpg")} alt=""/>
                     </a>
                 </Col>
