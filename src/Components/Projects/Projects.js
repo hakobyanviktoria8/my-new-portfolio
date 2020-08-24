@@ -80,7 +80,7 @@ export function Projects(props) {
             <hr/>
             {/*<Row>*/}
                 {/*<Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>*/}
-                    {/*<h1 className={"projectName"}>POLO360</h1>*/}
+                    {/*<h2 className={"projectName"}>POLO360</h2>*/}
                     {/*<div className={"icons"}>*/}
                         {/*<img className={"icon ml-1 iconHtml"} src={html} alt=""/>*/}
                         {/*<img className={"icon ml-1 iconCss"} src={css} alt=""/>*/}
@@ -104,7 +104,7 @@ export function Projects(props) {
             {/*Covid-19-React*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Covid-19</h1>
+                    <h2 className={"projectName"}>Covid-19</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
                         <img className={"icon ml-1 iconJavascript"} src={javascript} alt=""/>
@@ -142,7 +142,7 @@ export function Projects(props) {
             {/*Armenian trip*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject p-3"}>
-                    <h1 className={"projectName"}><img style={{width:"70px"}} src={ArmTripLogo} alt=""/>Armenian trip</h1>
+                    <h2 className={"projectName"}><img style={{width:"70px"}} src={ArmTripLogo} alt=""/>Armenian trip</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconReact"} src={react} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -194,7 +194,7 @@ export function Projects(props) {
             <hr/>{/*restoran*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject p-3"}>
-                    <h1 className={"projectName"}>101 CookBookS</h1>
+                    <h2 className={"projectName"}>101 CookBookS</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconReact"} src={react} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -226,10 +226,40 @@ export function Projects(props) {
                 </Col>
             </Row>
             <hr/>
+            {/*Weather map*/}
+            <Row>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <h2 className={"projectName"}>Weather map</h2>
+                    <div className={"icons"}>
+                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
+                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
+                    </div>
+                    <div className={"responsive"}>
+                        <img  className={"responsiveImg"} src={responsive} alt=""/>
+                    </div>
+                    <div className="aboutImg">
+                        <img className={"Simg p-1"} src={require("./AboutImg/Screenshot_35.jpg")} alt=""/>
+                        <img className={"Simg p-1"} src={require("./AboutImg/Screenshot_36.jpg")} alt=""/>
+                    </div>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Function component: HOOK</li>
+                        <li>Fetch async - await, try - catch  </li>
+                        <li>API: https://api.openweathermap.org/data/2.5/weather</li>
+                        <li>API: https://api.openweathermap.org/data/2.5/forecast</li>
+                    </ul>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <a  href="https://hakobyanviktoria8.github.io/projects/">R
+                        <img className={"workImg"} src={require("./AboutImg/Screenshot_37.jpg")} alt=""/>
+                    </a>
+                </Col>
+            </Row>
+            <hr/>
             {/*MovieReact*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Movie React</h1>
+                    <h2 className={"projectName"}>Movie React</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconReact"} src={react} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -255,7 +285,7 @@ export function Projects(props) {
             {/*CovidMapReact*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>COVID-19</h1>
+                    <h2 className={"projectName"}>COVID-19</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconReact"} src={react} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -280,7 +310,7 @@ export function Projects(props) {
             {/*COVID-19 js*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>COVID-19</h1>
+                    <h2 className={"projectName"}>COVID-19</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -312,7 +342,7 @@ export function Projects(props) {
             {/*LIBRARY-WEBSITE*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Library</h1>
+                    <h2 className={"projectName"}>Library</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -349,7 +379,7 @@ export function Projects(props) {
             {/*Millionaire*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Millionaire</h1>
+                    <h2 className={"projectName"}>Millionaire</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -377,7 +407,7 @@ export function Projects(props) {
             {/*RockPaperScissors*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Game RPS</h1>
+                    <h2 className={"projectName"}>Game RPS</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -402,7 +432,7 @@ export function Projects(props) {
             {/*caruselCake*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Viki's Cake</h1>
+                    <h2 className={"projectName"}>Viki's Cake</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -427,7 +457,7 @@ export function Projects(props) {
             {/*Time*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Time</h1>
+                    <h2 className={"projectName"}>Time</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -453,7 +483,7 @@ export function Projects(props) {
             {/*Exchange*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Exchange</h1>
+                    <h2 className={"projectName"}>Exchange</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -480,7 +510,7 @@ export function Projects(props) {
             {/*OpenWeatherXMLHttp*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Open Weather</h1>
+                    <h2 className={"projectName"}>Open Weather</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -506,7 +536,7 @@ export function Projects(props) {
             {/*FetchMovie*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Movie Search</h1>
+                    <h2 className={"projectName"}>Movie Search</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -533,7 +563,7 @@ export function Projects(props) {
             {/*WeatherMapFetch*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>Weather Map</h1>
+                    <h2 className={"projectName"}>Weather Map</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -559,9 +589,9 @@ export function Projects(props) {
             {/*work3 PSD*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>
+                    <h2 className={"projectName"}>
                         <img src={work3Logo} alt=""/>
-                    </h1>
+                    </h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -586,7 +616,7 @@ export function Projects(props) {
             {/*STEVEN SNELL*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>STEVEN SNELL</h1>
+                    <h2 className={"projectName"}>STEVEN SNELL</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
@@ -611,9 +641,9 @@ export function Projects(props) {
             {/*polo360*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h1 className={"projectName"}>
+                    <h2 className={"projectName"}>
                         <img src={polo360} alt=""/>
-                    </h1>
+                    </h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconHtml"} src={html} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
