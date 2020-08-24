@@ -12,7 +12,7 @@ export function CV(props) {
                     <Col xs="12" sm="12" md="12" lg="12" xl="12">
                         <h1>MY CV</h1>
                        {/*<AppCV/>*/}
-                       <MyApp/>
+                       {/*<MyApp/>*/}
                     </Col>
                 </Row>
                 <Row>
