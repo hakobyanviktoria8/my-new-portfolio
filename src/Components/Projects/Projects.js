@@ -24,7 +24,7 @@ import weatherMap from "./Image/WeatherMap.jpg";
 import exchange from "./Image/Exchange.jpg";
 import time from "./Image/Time.jpg";
 import CovidMapReact from "./Image/CovidMapReact.jpg";
-import MovieReact from "./Image/MovieReact.jpg";
+import MovieReact from "./AboutImg/movieProject.jpg";
 import WeatherMapFetch from "./Image/WeatherMapFetch.jpg";
 import restoran from "./Image/restoran.jpg";
 import ArmTripLogo from "./Icons/ArmTrip.png";
@@ -243,6 +243,7 @@ export function Projects(props) {
                     </div>
                     <h4 className={"mt-3"}>Used in the project</h4>
                     <ul className={"p-3"}>
+                        <li>Figma: <a href="https://www.figma.com/file/ICllJzuoWKcAXZ1Oo7sgqo/Untitled?node-id=0%3A1">Link here</a></li>
                         <li>Function component: HOOK</li>
                         <li>Fetch async - await, try - catch  </li>
                         <li>API: https://api.openweathermap.org/data/2.5/weather</li>
@@ -268,17 +269,28 @@ export function Projects(props) {
                     <div className={"responsive"}>
                         <img  className={"responsiveImg"} src={responsive} alt=""/>
                     </div>
-                    <h4 className={"mt-3"}>Used in the project</h4>
-                    <ul className={"p-3"}>
-                        <li>Function component: HOOK</li>
-                        <li>Fetch async - await, try - catch  </li>
-                        <li>API: https://api.themoviedb.org/3/search/movie</li>
-                    </ul>
+                    <div className="aboutImg">
+                        <img src={require("./AboutImg/Screenshot_38.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_39.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_40.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_41.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_42.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_43.jpg")} className={"Simg p-1"} alt=""/>
+                    </div>
                 </Col>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
                     <a  href="https://hakobyanviktoria8.github.io/movieProjectReact/">
                         <img className={"workImg"} src={MovieReact} alt=""/>
                     </a>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Figma: <a href="https://www.figma.com/file/tLmHuLf0srURsV2cGacO8e/Untitled?node-id=0%3A1">Link here</a></li>
+                        <li>Function component: HOOK</li>
+                        <li>Fetch async - await, try - catch  </li>
+                        <li>API: https://api.themoviedb.org/3/search/movie</li>
+                        <li>Movie trailer, Flip card, Youtube</li>
+                        <li>Reactstrap: Modal</li>
+                    </ul>
                 </Col>
             </Row>
             <hr/>
