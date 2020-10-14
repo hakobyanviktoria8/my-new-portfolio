@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import { Link} from "react-router-dom";
 import "./NavBar.css";
@@ -7,24 +7,35 @@ const NavBar = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
+    const [show, setShow] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () =>{
+            window.scrollY > 50 ? setShow(true) : setShow(false)
+        });
+        return () => {
+            window.removeEventListener("scroll")
+        }
+    },[]);
+
     return (
-        <div>
+        <div className={`navigation ${show && "navigationBGColor"}`}>
             <Navbar  light expand="md" className={"navigation"}>
-                <Link className={"mx-3 link"} to="/">VHV</Link>
+                <Link className={"p-3 link"} to="/">VHV</Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <Link className={"mx-3 link"} to="/projects">Projects</Link>
+                            <Link className={"p-3 link"} to="/projects">Projects</Link>
                         </NavItem>
                         <NavItem>
-                            <Link className={"mx-3 link"} to="/education">Education</Link>
+                            <Link className={"p-3 link"} to="/education">Education</Link>
                         </NavItem>
                         <NavItem>
-                            <Link className={"mx-3 link"} to="/work-experience">Work Experience</Link>
+                            <Link className={"p-3 link"} to="/work-experience">Work Experience</Link>
                         </NavItem>
                         <NavItem>
-                            <Link className={"mx-3 link"} to="/cv">CV</Link>
+                            <Link className={"p-3 link"} to="/cv">CV</Link>
                         </NavItem>
                     </Nav>
                 </Collapse>

@@ -3,17 +3,27 @@
     width: 100%;
     z-index: 2;
     top: 0;
-    height: 80px;
-    background-color: #b900a9;
+    height: 5rem;
+    /*background-color: #b900a9;*/
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.navigationBGColor{
+    background-color: #650067;
 }
 .link{
     color: white;
-    font-size: 30px;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 .link:hover{
-    transform: scale(1.05, 1.05);
+    /*transform: scale(1.15, 1.15);*/
     text-shadow: 0 0  10px #ff99ef;
     text-decoration: none;
-    color: white;
+    color: #eedfdf;
+    /*background-color: white;*/
+    /*padding: .5rem;*/
+}
+.navbar-toggler {
+    background-color: white !important;
 }

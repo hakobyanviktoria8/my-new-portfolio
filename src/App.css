@@ -1,3 +1,6 @@
 .bigDiv{
-    position: relative;
+    /*position: relative;*/
+}
+:root{
+    font-size: 0.9vw;
 }

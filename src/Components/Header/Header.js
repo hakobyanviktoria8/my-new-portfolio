@@ -13,7 +13,7 @@ export function Header(props) {
         <div className={"header"}>
             <Container>
                 <Row>
-                    <Col xs="12" sm="10" md="6" lg="5" xl="5" className={"col"}>
+                    <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"col"}>
                         <Row>
                             <Col xs="12" sm="12" md="12" lg="12" xl="12" className={"col imgCol"}>
                                 <img className={"imgCV"} src={imgCV} alt=""/>
@@ -35,19 +35,19 @@ export function Header(props) {
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs="12" sm="10" md="6" lg="7" xl="7" className={"col"}>
+                    <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"col"}>
                         <Row>
                             <Col xs="12" sm="12" md="12" lg="12" xl="12" className={"col textCol"}>
                                 <div className={"headerText"}>
                                     <h1 className={"name"}>Viktorya Hakobyan Vardani</h1>
-                                    <h3>Junior Frontend Developer</h3>
+                                    <h3>Front End Developer</h3>
                                     <h5>/ Javascript / React /</h5>
                                     <p> </p>
                                 </div>
                             </Col>
                         </Row>
                         <Row>
-                            <Col xs="12" sm="12" md="12" lg="12" xl="12" className={"col contactCol ml-5"}>
+                            <Col xs="12" sm="12" md="12" lg="12" xl="12" className={"col contactCol"}>
                                 <div className="addres">
                                     <img src={address} />
                                     <span className="ml-4 textHeader">25 apt. 1b. S. Taronts Shengavit Yerevan Armenia</span>
