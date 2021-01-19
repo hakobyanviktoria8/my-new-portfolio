@@ -119,45 +119,7 @@ export function Projects(props) {
                 {/*</Col>*/}
             {/*</Row>*/}
             {/*<hr/>*/}
-            {/*Covid-19-React*/}
-            <Row>
-                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h2 className={"projectName"}>Covid-19</h2>
-                    <div className={"icons"}>
-                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
-                        <img className={"icon ml-1 iconJavascript"} src={javascript} alt=""/>
-                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
-                        <img className={"icon ml-1 iconReactStrap"} src={reactStrap} alt=""/>
-                    </div>
-                    <div className={"responsive"}>
-                        <img  className={"responsiveImg"} src={responsive} alt=""/>
-                    </div>
-                    <div className="aboutImg ArmTrip">
-                        <img title={"Select country"} className={"Simg p-1"} src={covid2} alt=""/>
-                        <img title={"News"} className={"Simg p-1"} src={covid3} alt=""/>
-                        <img title={"Counter"} className={"Simg p-1"} src={covid4} alt=""/>
-                    </div>
-                </Col>
-                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject colProjLink"}>
-                    <a  href="https://hakobyanviktoria8.github.io/covid-19-react/">
-                        <div className={"colLink"}> See the project</div>
-                    </a>
-                    <img className={"workImg"} src={covid1} alt=""/>
-                    <h4 className={"mt-3"}>Used in the project</h4>
-                    <ul className={"p-3"}>
-                        <li>Reactstrap: Modal, Container, Row, Col, Table</li>
-                        <li>Function Component</li>
-                        <li>HOOK : useState, useEffect</li>
-                        <li>Fetch, Axios: async - await, try - catch  </li>
-                        <li>API: https://corona.lmao.ninja</li>
-                        <li>API: https://disease.sh</li>
-                        <li>Leaflet Map</li>
-                        <li>Chart js graph</li>
-                        <li>Numeral</li>
-                    </ul>
-                </Col>
-            </Row>
-            <hr/>
+
             {/*Armenian trip*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject p-3"}>
@@ -209,6 +171,83 @@ export function Projects(props) {
                         <img title={"Home"} className={"Simg p-1"} src={image} alt=""/>
                         <img title={"Home"} className={"Simg p-1"} src={slider} alt=""/>
                     </div>
+                </Col>
+            </Row>
+            <hr/>
+            {/*Covid-19-React*/}
+            <Row>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <h2 className={"projectName"}>Covid-19</h2>
+                    <div className={"icons"}>
+                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
+                        <img className={"icon ml-1 iconJavascript"} src={javascript} alt=""/>
+                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
+                        <img className={"icon ml-1 iconReactStrap"} src={reactStrap} alt=""/>
+                    </div>
+                    <div className={"responsive"}>
+                        <img  className={"responsiveImg"} src={responsive} alt=""/>
+                    </div>
+                    <div className="aboutImg ArmTrip">
+                        <img title={"Select country"} className={"Simg p-1"} src={covid2} alt=""/>
+                        <img title={"News"} className={"Simg p-1"} src={covid3} alt=""/>
+                        <img title={"Counter"} className={"Simg p-1"} src={covid4} alt=""/>
+                    </div>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject colProjLink"}>
+                    <a  href="https://hakobyanviktoria8.github.io/covid-19-react/">
+                        <div className={"colLink"}> See the project</div>
+                    </a>
+                    <img className={"workImg"} src={covid1} alt=""/>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Reactstrap: Modal, Container, Row, Col, Table</li>
+                        <li>Function Component</li>
+                        <li>HOOK : useState, useEffect</li>
+                        <li>Fetch, Axios: async - await, try - catch  </li>
+                        <li>API: https://corona.lmao.ninja</li>
+                        <li>API: https://disease.sh</li>
+                        <li>Leaflet Map</li>
+                        <li>Chart js graph</li>
+                        <li>Numeral</li>
+                    </ul>
+                </Col>
+            </Row>
+            <hr/>
+            {/*MovieReact*/}
+            <Row>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <h2 className={"projectName"}>Movie React</h2>
+                    <div className={"icons"}>
+                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
+                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
+                        <img className={"icon ml-1 iconReactStrap"} src={reactStrap} alt=""/>
+                    </div>
+                    <div className={"responsive"}>
+                        <img  className={"responsiveImg"} src={responsive} alt=""/>
+                    </div>
+                    <div className="aboutImg">
+                        <img src={require("./AboutImg/Screenshot_38.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_39.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_40.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_41.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_42.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_43.jpg")} className={"Simg p-1"} alt=""/>
+                    </div>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject colProjLink"}>
+                    <a  href="https://hakobyanviktoria8.github.io/movieProjectReact/">
+                        <div className={"colLink"}> See the project</div>
+                    </a>
+                    <img className={"workImg"} src={MovieReact} alt=""/>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Figma: <a href="https://www.figma.com/file/tLmHuLf0srURsV2cGacO8e/Untitled?node-id=0%3A1">Link here</a></li>
+                        <li>Function component: HOOK</li>
+                        <li>Fetch async - await, try - catch  </li>
+                        <li>API: https://api.themoviedb.org/3/search/movie</li>
+                        <li>Movie trailer, Flip card, Youtube</li>
+                        <li>Reactstrap: Modal</li>
+                    </ul>
                 </Col>
             </Row>
             <hr/>{/*restoran*/}
@@ -279,41 +318,26 @@ export function Projects(props) {
                 </Col>
             </Row>
             <hr/>
-            {/*MovieReact*/}
+            {/*Exchange*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
-                    <h2 className={"projectName"}>Movie React</h2>
+                    <h2 className={"projectName"}>Exchange</h2>
                     <div className={"icons"}>
                         <img className={"icon ml-1 iconReact"} src={react} alt=""/>
                         <img className={"icon ml-1 iconCss"} src={css} alt=""/>
-                        <img className={"icon ml-1 iconReactStrap"} src={reactStrap} alt=""/>
                     </div>
-                    <div className={"responsive"}>
-                        <img  className={"responsiveImg"} src={responsive} alt=""/>
-                    </div>
-                    <div className="aboutImg">
-                        <img src={require("./AboutImg/Screenshot_38.jpg")} className={"Simg p-1"} alt=""/>
-                        <img src={require("./AboutImg/Screenshot_39.jpg")} className={"Simg p-1"} alt=""/>
-                        <img src={require("./AboutImg/Screenshot_40.jpg")} className={"Simg p-1"} alt=""/>
-                        <img src={require("./AboutImg/Screenshot_41.jpg")} className={"Simg p-1"} alt=""/>
-                        <img src={require("./AboutImg/Screenshot_42.jpg")} className={"Simg p-1"} alt=""/>
-                        <img src={require("./AboutImg/Screenshot_43.jpg")} className={"Simg p-1"} alt=""/>
-                    </div>
-                </Col>
-                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject colProjLink"}>
-                    <a  href="https://hakobyanviktoria8.github.io/movieProjectReact/">
-                        <div className={"colLink"}> See the project</div>
-                    </a>
-                    <img className={"workImg"} src={MovieReact} alt=""/>
                     <h4 className={"mt-3"}>Used in the project</h4>
                     <ul className={"p-3"}>
-                        <li>Figma: <a href="https://www.figma.com/file/tLmHuLf0srURsV2cGacO8e/Untitled?node-id=0%3A1">Link here</a></li>
                         <li>Function component: HOOK</li>
-                        <li>Fetch async - await, try - catch  </li>
-                        <li>API: https://api.themoviedb.org/3/search/movie</li>
-                        <li>Movie trailer, Flip card, Youtube</li>
-                        <li>Reactstrap: Modal</li>
+                        <li>Fetch request</li>
+                        <li>API: https://api.exchangeratesapi.io/latest?base</li>
                     </ul>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject colProjLink"}>
+                    <a  href="https://hakobyanviktoria8.github.io/exchangechalang/">
+                        <div className={"colLink"}> See the project</div>
+                    </a>
+                    <img className={"workImg"} src={require("./AboutImg/Exchange.jpg")} alt=""/>
                 </Col>
             </Row>
             <hr/>
@@ -340,6 +364,32 @@ export function Projects(props) {
                         <div className={"colLink"}> See the project</div>
                     </a>
                     <img className={"workImg"} src={CovidMapReact} alt=""/>
+                </Col>
+            </Row>
+            <hr/>
+            {/*Series and Movies*/}
+            <Row>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <h2 className={"projectName"}>Series and Movies</h2>
+                    <div className={"icons"}>
+                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
+                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
+                        <img className={"icon ml-1 iconReactStrap"} src={reactStrap} alt=""/>
+                    </div>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Function component: HOOK: useParams, useState, useEffect</li>
+                        <li>Fetch async - await, try - catch - finally</li>
+                        <li>API: https://raw.githubusercontent.com/StreamCo/react-coding-challenge/master/feed/sample.json</li>
+                        <li>React router 6</li>
+                        <li>Pagination</li>
+                    </ul>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject colProjLink"}>
+                    <a  href=" https://hakobyanviktoria8.github.io/my_app/">
+                        <div className={"colLink"}> See the project</div>
+                    </a>
+                    <img className={"workImg"} src={require("./AboutImg/my-app1.jpg")} alt=""/>
                 </Col>
             </Row>
             <hr/>
