@@ -367,6 +367,29 @@ export function Projects(props) {
                 </Col>
             </Row>
             <hr/>
+            {/*Todo*/}
+            <Row>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <h2 className={"projectName"}>To Do List</h2>
+                    <div className={"icons"}>
+                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
+                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
+                    </div>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Function component: HOOK: useState, useEffect</li>
+                        <li>Local Storage: to do data seve here</li>
+                        <li>React particles background effect</li>
+                    </ul>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject colProjLink"}>
+                    <a  href="https://hakobyanviktoria8.github.io/todo-localstorage/">
+                        <div className={"colLink"}> See the project</div>
+                    </a>
+                    <img className={"workImg"} src={require("./AboutImg/todo_react.jpg")} style={{height:"450px"}} alt=""/>
+                </Col>
+            </Row>
+            <hr/>
             {/*Series and Movies*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
