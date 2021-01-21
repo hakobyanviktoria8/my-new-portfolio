@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/my-new-portfolio/static/css/main.345aa849.chunk.css",
-    "main.js": "/my-new-portfolio/static/js/main.271557dc.chunk.js",
-    "main.js.map": "/my-new-portfolio/static/js/main.271557dc.chunk.js.map",
+    "main.js": "/my-new-portfolio/static/js/main.b6062063.chunk.js",
+    "main.js.map": "/my-new-portfolio/static/js/main.b6062063.chunk.js.map",
     "runtime-main.js": "/my-new-portfolio/static/js/runtime-main.11982a93.js",
     "runtime-main.js.map": "/my-new-portfolio/static/js/runtime-main.11982a93.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/my-new-portfolio/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.3f4466a2.chunk.js": "/my-new-portfolio/static/js/2.3f4466a2.chunk.js",
-    "static/js/2.3f4466a2.chunk.js.map": "/my-new-portfolio/static/js/2.3f4466a2.chunk.js.map",
+    "static/js/2.95002aed.chunk.js": "/my-new-portfolio/static/js/2.95002aed.chunk.js",
+    "static/js/2.95002aed.chunk.js.map": "/my-new-portfolio/static/js/2.95002aed.chunk.js.map",
     "index.html": "/my-new-portfolio/index.html",
-    "precache-manifest.d5c2be68afc6d0d430e73baff9ba0ed4.js": "/my-new-portfolio/precache-manifest.d5c2be68afc6d0d430e73baff9ba0ed4.js",
+    "precache-manifest.fce567fa7f97431ab82e9728338cc100.js": "/my-new-portfolio/precache-manifest.fce567fa7f97431ab82e9728338cc100.js",
     "service-worker.js": "/my-new-portfolio/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/my-new-portfolio/static/css/2.3cf5d70f.chunk.css.map",
     "static/css/main.345aa849.chunk.css.map": "/my-new-portfolio/static/css/main.345aa849.chunk.css.map",
-    "static/js/2.3f4466a2.chunk.js.LICENSE.txt": "/my-new-portfolio/static/js/2.3f4466a2.chunk.js.LICENSE.txt",
+    "static/js/2.95002aed.chunk.js.LICENSE.txt": "/my-new-portfolio/static/js/2.95002aed.chunk.js.LICENSE.txt",
     "static/media/001.jpg": "/my-new-portfolio/static/media/001.5b543262.jpg",
     "static/media/004.jpg": "/my-new-portfolio/static/media/004.2dffd8d8.jpg",
     "static/media/ArmTrip.png": "/my-new-portfolio/static/media/ArmTrip.6bb089a8.png",
@@ -81,13 +81,14 @@
     "static/media/movieProject.jpg": "/my-new-portfolio/static/media/movieProject.bdeaf96c.jpg",
     "static/media/my-app1.jpg": "/my-new-portfolio/static/media/my-app1.dafaf0c3.jpg",
     "static/media/react.png": "/my-new-portfolio/static/media/react.d9869b2c.png",
-    "static/media/restoran.jpg": "/my-new-portfolio/static/media/restoran.d308ff89.jpg"
+    "static/media/restoran.jpg": "/my-new-portfolio/static/media/restoran.d308ff89.jpg",
+    "static/media/todo_react.jpg": "/my-new-portfolio/static/media/todo_react.eb5e3a1f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.11982a93.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.3f4466a2.chunk.js",
+    "static/js/2.95002aed.chunk.js",
     "static/css/main.345aa849.chunk.css",
-    "static/js/main.271557dc.chunk.js"
+    "static/js/main.b6062063.chunk.js"
   ]
 }
