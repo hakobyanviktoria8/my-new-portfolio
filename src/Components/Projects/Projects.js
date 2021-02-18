@@ -250,7 +250,43 @@ export function Projects(props) {
                     </ul>
                 </Col>
             </Row>
-            <hr/>{/*restoran*/}
+            <hr/>
+            {/*Github_Users*/}
+            <Row>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject"}>
+                    <h2 className={"projectName"}>Github Users</h2>
+                    <div className={"icons"}>
+                        <img className={"icon ml-1 iconReact"} src={react} alt=""/>
+                        <img className={"icon ml-1 iconCss"} src={css} alt=""/>
+                        <img className={"icon ml-1 iconReactStrap"} src={reactStrap} alt=""/>
+                    </div>
+                    <div className={"responsive"}>
+                        <img  className={"responsiveImg"} src={responsive} alt=""/>
+                    </div>
+                    <div className="aboutImg">
+                        <img src={require("./AboutImg/Screenshot_44.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_45.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_46.jpg")} className={"Simg p-1"} alt=""/>
+                        <img src={require("./AboutImg/Screenshot_47.jpg")} className={"Simg p-1"} alt=""/>
+                    </div>
+                </Col>
+                <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject colProjLink"}>
+                    <a  href="https://hakobyanviktoria8.github.io/github-users/">
+                        <div className={"colLink"}> See the project</div>
+                    </a>
+                    <img className={"workImg"} src={require("./AboutImg/Screenshot_44.jpg")} alt=""/>
+                    <h4 className={"mt-3"}>Used in the project</h4>
+                    <ul className={"p-3"}>
+                        <li>Figma: <a href="https://www.figma.com/file/RCPfV0r6Sl1dTv3x4FGSW9/Untitled?node-id=0%3A1">Link here</a></li>
+                        <li>Function component: HOOK</li>
+                        <li>Fetch async - await, try - catch  </li>
+                        <li>API: https://api.github.com/users</li>
+                        <li>React Pagination, Loader spinner, Router</li>
+                    </ul>
+                </Col>
+            </Row>
+            <hr/>
+            {/*restoran*/}
             <Row>
                 <Col xs="12" sm="11" md="6" lg="6" xl="6" className={"colProject p-3"}>
                     <h2 className={"projectName"}>101 CookBookS</h2>
