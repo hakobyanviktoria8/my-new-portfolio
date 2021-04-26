@@ -3,7 +3,11 @@
     top: 90px;
     position: relative;
 }
+.cv .container-fluid {
+    width: 85%;
+}
 .cv h1{
     color: #faebff;
     text-align: center;
 }
+

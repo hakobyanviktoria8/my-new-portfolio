@@ -14,6 +14,17 @@ export function WorkExperience(props) {
                 <hr/>
                 <Row>
                     <Col xs="12" sm="10" md="8" lg="8" xl="8">
+                        <h3>"VooDoo Programming LLC" development company</h3>
+                        <p>08.01.2021 - 15.03.2021</p>
+                    </Col>
+                    <Col xs="12" sm="10" md="4" lg="4" xl="4">
+                        {/*<img src="Image/Screenshot_6.png" alt=""/>*/}
+                        <h3>Front-end developer</h3>
+                    </Col>
+                </Row>
+                <hr/>
+                <Row>
+                    <Col xs="12" sm="10" md="8" lg="8" xl="8">
                         <h3>NAS RA L.Mnjoyan Organic and Pharmaceutical Chemistry Technological Center</h3>
                         <p>01.06.2013 - 01.05.2015</p>
                     </Col>

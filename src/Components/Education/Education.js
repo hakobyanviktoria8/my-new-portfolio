@@ -14,6 +14,18 @@ export function Education(props) {
             </Row>
             <Row>
                 <Col xs="12" sm="10" md="8" lg="8" xl="8">
+                    <h3>Sunny school</h3>
+                    <p> 01.02.2021 - till now</p>
+                </Col>
+                <Col xs="12" sm="10" md="4" lg="4" xl="4">
+                    {/*<img src={iconV} alt=""/>*/}
+                    <h3>Higher Certificate</h3>
+                    <p>Node JS Developer</p>
+                </Col>
+            </Row>
+            <hr/>
+            <Row>
+                <Col xs="12" sm="10" md="8" lg="8" xl="8">
                     <h3>Armenian Code Academy</h3>
                     <p>12.18.2019 - 30.06.2020</p>
                 </Col>

@@ -7,7 +7,7 @@ import {MyApp} from "./MyApp";
 export function CV(props) {
     return(
         <div className={"cv"}>
-            <Container>
+            <Container fluid={true}>
                 <Row>
                     <Col xs="12" sm="12" md="12" lg="12" xl="12">
                         <h1>MY CV</h1>
