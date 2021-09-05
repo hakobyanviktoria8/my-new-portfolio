@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import { Link} from "react-router-dom";
+import React, {useState, useEffect} from 'react';
+import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink} from 'reactstrap';
+import {Link} from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = (props) => {
@@ -10,19 +10,19 @@ const NavBar = (props) => {
     const [show, setShow] = useState(false);
 
     useEffect(() => {
-        window.addEventListener("scroll", () =>{
+        window.addEventListener("scroll", () => {
             window.scrollY > 50 ? setShow(true) : setShow(false)
         });
         return () => {
             window.removeEventListener("scroll")
         }
-    },[]);
+    }, []);
 
     return (
         <div className={`navigation ${show && "navigationBGColor"}`}>
-            <Navbar  light expand="md" className={"navigation"}>
+            <Navbar light expand="md" className={"navigation"}>
                 <Link className={"p-3 link"} to="/">VHV</Link>
-                <NavbarToggler onClick={toggle} />
+                <NavbarToggler onClick={toggle}/>
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>

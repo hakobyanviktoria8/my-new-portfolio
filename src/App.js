@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import NavBar from "./Components/Navbar/NavBar";
 import {Header} from "./Components/Header/Header";
 import {Projects} from "./Components/Projects/Projects";
@@ -15,22 +15,22 @@ export default function App() {
                 <NavBar/>
                 <Switch>
                     <Route exact path="/">
-                        <Header />
+                        <Header/>
                     </Route>
                     <Route exact path="/my-new-portfolio">
-                        <Header />
+                        <Header/>
                     </Route>
                     <Route path="/projects">
-                        <Projects />
+                        <Projects/>
                     </Route>
                     <Route path="/education">
-                        <Education />
+                        <Education/>
                     </Route>
                     <Route path="/work-experience">
-                        <WorkExperience />
+                        <WorkExperience/>
                     </Route>
                     <Route path="/cv">
-                        <CV />
+                        <CV/>
                     </Route>
                 </Switch>
             </div>
