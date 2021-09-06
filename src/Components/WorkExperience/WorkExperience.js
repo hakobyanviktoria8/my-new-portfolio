@@ -1,9 +1,9 @@
 import React from "react";
-import { Container, Row, Col } from 'reactstrap';
+import {Container, Row, Col} from 'reactstrap';
 import "./WorkExperience.css";
 
 export function WorkExperience(props) {
-    return(
+    return (
         <div className="workExperience">
             <Container>
                 <Row>
@@ -50,7 +50,7 @@ export function WorkExperience(props) {
                         <h3>"Al & Al" LLC</h3>
                         <p>08.01.2013 - 31.04.2013</p>
                     </Col>
-                    <Col  xs="12" sm="10" md="4" lg="4" xl="4">
+                    <Col xs="12" sm="10" md="4" lg="4" xl="4">
                         {/*<img src="Image/Screenshot_6.png" alt=""/>*/}
                         <h3>Accountant</h3>
                     </Col>
